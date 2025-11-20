@@ -1,0 +1,17 @@
+git clone https://github.com/SENIN-KULLANICI-ADIN/balon-turizm-app.git
+cd balon-turizm-app
+echo '{
+  "expo": {
+    "name": "Balon Turizm",
+    "slug": "balon-turizm-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    }
+  }
+}' > app.json
+git add .
+git commit -m "İlk Expo Launch dosyası"
+git push origin main
